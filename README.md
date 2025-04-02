@@ -18,6 +18,7 @@
 
 - `cfdata.go`: Go 语言实现版本
 - `cfdata.py`: Python 实现版本
+- `get_best_cf_ips.py`: 优化版 Python 实现，专注于获取最佳 Cloudflare IP
 - `cfdata-windows-amd64.exe`: Windows 平台预编译可执行文件
 - `ip.csv`: IP 扫描结果，包含 IP 地址、数据中心代码、地区、城市和网络延迟
 - `result.csv`: 详细测试结果，包含 IP 地址、最小延迟、最大延迟、平均延迟和丢包率
@@ -25,6 +26,7 @@
 - `ips-v6.txt`: Cloudflare IPv6 CIDR 列表
 - `locations.json`: Cloudflare 数据中心位置信息
 - `ip.txt`: 筛选后的优质 IP 列表（可用于其他程序）
+- `cf-ip.txt`: 经过优化筛选的高质量 Cloudflare IP 列表
 
 ## 使用方法
 
